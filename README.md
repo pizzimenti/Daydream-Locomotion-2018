@@ -1,7 +1,7 @@
 # Daydream-Locomotion-2018
 Locomotion controls within VR for Google Daydream that layers both walking and teleportation simultaneously
 
-This Unity project (now updated to work with Unity 2018.3) has layered locomotion controls using very simple input capture scripts. Simply rest the thumb on the track pad to indicate walk/strafe diectionality. Centering the thumb stops all motion. Pressing down on the pad (button 1) activates a teleport raycast and hovering platform and arrests walking movement to make aim of the laser easier. Green beam indicates location of teleport when button is released. Red beam indicates teleport location is not suitable and cancels the intent.
+This Unity project (now updated to work with Unity 2018.3) has layered locomotion controls using very simple input capture scripts. Simply rest the thumb on the track pad to indicate walk/strafe directionality (like WSAD). Centering the thumb stops all motion. Pressing down on the pad (button 1) activates a teleport raycast and hovering platform and arrests walking movement to make aim of the laser easier. Green beam indicates location of teleport when button is released. Red beam indicates teleport location is not suitable and cancels the intent.
 
 ### Installation
 
@@ -14,11 +14,12 @@ This Unity project (now updated to work with Unity 2018.3) has layered locomotio
 ### Requirements
 
 * Android device running Android 7+
+* Google Daydream Headset and Controller
 
 ### Troubleshooting
 
-GVR continues to undergo an overhaul at Google to work with Unity new methods for handling input. Some methods for GVR input will be flagged as deprecated until Google updates to the GVR for Unity 2018. This does not seem to affect the build or performance.
-This version also has .NET 4 selected as .NET 3.5 has been deprecated. You may need to install .NET 4 or change this flag is project settings.
+GVR SDK continues to undergo an overhaul at Google to work with Unity's new methods for handling input. Some methods for GVR input will be flagged as deprecated until Google updates to the GVR for Unity 2018. This does not seem to affect the build or performance.
+This version also has .NET 4 selected as .NET 3.5 has been deprecated. You may need to install .NET 4 or change this flag in project settings.
 
 ### License
 
